@@ -28,8 +28,8 @@ print('✅ Thư viện sẵn sàng.')
 # 1. LOAD DATA
 # =========================
 
-df      = pd.read_csv('netflix_step1_enriched.csv')
-clus_df = pd.read_csv('clustering_output.csv')
+df = pd.read_csv('csv/netflix_step1_enriched.csv')
+clus_df = pd.read_csv('csv/clustering_output.csv')
 
 df.columns      = df.columns.str.strip()
 clus_df.columns = clus_df.columns.str.strip()
