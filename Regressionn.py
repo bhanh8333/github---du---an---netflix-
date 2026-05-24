@@ -37,7 +37,6 @@ clus_df.columns = clus_df.columns.str.strip()
 # Gán cluster vào df
 df['cluster'] = clus_df['cluster'].values.astype(str)
 
-# Bỏ dòng thiếu target
 df = df.dropna(subset=['total_revenue_to_date'])
 
 print(f'Shape: {df.shape}')
