@@ -32,7 +32,7 @@ FEE_COLORS = {'7.99': '#E74C3C', '12.99': '#F39C12', '15.99': '#2ECC71'}
 
 print('✅ Thư viện đã sẵn sàng.')
 
-df = pd.read_csv('netflix_step1_enriched.csv')
+df = pd.read_csv('csv/netflix_step1_enriched.csv')
 
 # Làm sạch tên cột & giá trị chuỗi
 df.columns = df.columns.str.strip()
